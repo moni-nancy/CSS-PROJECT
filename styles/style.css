@@ -1,0 +1,146 @@
+html{
+  font-family:'Courier New', Courier, monospace;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, 
+body{
+height: 100%;
+}
+body{
+  background-image: linear-gradient(to right, #BED8E3, #E4909A, #E98F99);
+}
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+h1{
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+span{
+  color: #E98F99; 
+}
+
+/*HEADER*/
+header{
+background-color:#EEEFF1 ;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 10px 20px;
+padding: 5px;
+border: 2px solid black;
+box-shadow: 5px 5px  rgba(0, 0, 0, 0.164);
+}
+
+/*NAVBAR*/
+ul.navbar{
+display: flex;
+justify-content: space-around;
+}
+
+#navlink{
+border: 2px solid black;
+margin-right: 10px;
+padding: 6px;
+}
+/*
+#navlink:hover{
+background-image:linear-gradient(to left, #BED8E3,#E98F99);
+}*/
+/*HERO SECTION*/
+.hero{
+background-color: #E9E4E6;
+align-items: center;
+height: 40vh;
+display: flex;
+flex-direction: row;
+gap: 6rem;
+padding: 20px;
+margin:0 40px;
+}
+
+.hero-image{
+  margin-left: 8rem;
+}
+.hero-image img{
+  border-width: 4px;
+  border-style: solid;
+  border-image: linear-gradient(to left, #BED8E3, #E4909A, #E98F99) 1; 
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.164);
+}
+
+
+.hero-text{
+max-width: 45vw;
+margin: 10px 0px 15px;
+}
+
+.hero-text p{
+color: grey;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+}
+
+/*SKILLS AND ABOUT ME*/
+.main{
+background-color: #E9E4E6;
+display: flex;
+flex-direction: row;
+height: 48vh;
+margin: 3px 40px 10px 40px;
+padding-top: 20px;
+}
+
+.box{
+  padding: 15px 30px;
+  margin: 10px 20px;
+}
+
+.box h1{
+  padding-bottom: 20px;
+}
+
+
+.me li{
+  color: grey;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+.skills{ 
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ text-align: center;
+}
+
+
+#skill{
+border: 2px solid transparent;
+border-radius: 5px;
+box-shadow: 5px 5px  rgba(0, 0, 0, 0.164);
+margin: 8px;
+padding: 2px;
+font-weight: 400;
+}
